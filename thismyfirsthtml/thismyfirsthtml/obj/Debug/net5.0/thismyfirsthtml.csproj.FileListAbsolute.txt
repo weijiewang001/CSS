@@ -1,0 +1,6 @@
+/Users/wangweijie/Desktop/html/thismyfirsthtml/thismyfirsthtml/obj/Debug/net5.0/thismyfirsthtml.csprojAssemblyReference.cache
+/Users/wangweijie/Desktop/html/thismyfirsthtml/thismyfirsthtml/obj/Debug/net5.0/thismyfirsthtml.GeneratedMSBuildEditorConfig.editorconfig
+/Users/wangweijie/Desktop/html/thismyfirsthtml/thismyfirsthtml/obj/Debug/net5.0/thismyfirsthtml.AssemblyInfoInputs.cache
+/Users/wangweijie/Desktop/html/thismyfirsthtml/thismyfirsthtml/obj/Debug/net5.0/thismyfirsthtml.AssemblyInfo.cs
+/Users/wangweijie/Desktop/html/thismyfirsthtml/thismyfirsthtml/obj/Debug/net5.0/thismyfirsthtml.csproj.CoreCompileInputs.cache
+/Users/wangweijie/Desktop/html/thismyfirsthtml/thismyfirsthtml/obj/Debug/net5.0/thismyfirsthtml.MvcApplicationPartsAssemblyInfo.cache
