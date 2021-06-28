@@ -1,0 +1,67 @@
+*, *::before, *::after {
+    box-sizing: border-box
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url('https://source.unsplash.com/nKC772R_qog');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.avatar::before,
+.avatar::after {
+    --scale: 0;
+    --arrow-size: 20px;
+    --tooltip-color:green;
+    position: absolute;
+    top: -.25em;
+    left: 50%;
+    transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(var(--scale));
+    /* animationed */
+    transition: 150ms transform;
+    /* 动画出来的方向-底部中心出现 */
+    transform-origin: bottom center;
+}
+
+/* 方框的属性 */
+.avatar::before {
+    --translate-y: calc(-100% - var(--arrow-size));
+
+    content: attr(data-tooltip);
+    color: white;
+    padding: .5rem;
+    border-radius: .3rem;
+    text-align: center;
+    width: max-content;
+    max-width: 100%;
+    background: var(--tooltip-color);
+}
+
+/* 动画出现的变量 */
+.avatar:hover::before,
+.avatar:hover::after {
+    --scale: 1;
+}
+
+/* 箭头 */
+.avatar::after {
+    /* 箭头出现的位置 */
+    --translate-y: calc(-1 * var(--arrow-size));
+
+    content: '';
+    border: var(--arrow-size) solid transparent;
+    border-top-color: var(--tooltip-color);
+    transform-origin: top center;
+}
