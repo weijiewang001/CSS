@@ -1,0 +1,17 @@
+*, *::before, *::after {
+    box-sizing: boreder-box;
+}
+
+body {
+    margin: 0;
+    background-color: #bdbdbd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.emoji {
+    
+}
