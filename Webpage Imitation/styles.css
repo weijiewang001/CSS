@@ -1,0 +1,90 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.background {
+    height: 300px;
+    width: 200ox;
+    background-color: lightblue;
+}
+
+.BigImage {
+    background-color:red;
+    position: absolute;
+    margin: 0;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.picture {
+    position: relative;
+    justify-content: center;
+    height:  80px;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+
+}
+
+.secondLine {
+    position: relative;
+    top: 3px;
+    margin: 0 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.promotionArea {
+    top: 8px;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    font-size: 8px;
+    border-radius: 5px;
+    display: center;
+    margin: 0 5px;
+}
+
+.textColor {
+    font-size: 5px;
+    color: Green;
+}
+
+.secondLineText {
+    font-size: 4px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.thirdLine {
+    height: 30vh;
+    width: 30vw;
+    position: absolute;
+    background-color: red;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+    /* display: flex; */
+
+}
+.img-intro {
+    top: 30px;
+    position: relative;
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
