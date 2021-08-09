@@ -4,3 +4,4 @@
 /Users/wangweijie/Desktop/html/thismyfirsthtml/thismyfirsthtml/obj/Debug/net5.0/thismyfirsthtml.AssemblyInfo.cs
 /Users/wangweijie/Desktop/html/thismyfirsthtml/thismyfirsthtml/obj/Debug/net5.0/thismyfirsthtml.csproj.CoreCompileInputs.cache
 /Users/wangweijie/Desktop/html/thismyfirsthtml/thismyfirsthtml/obj/Debug/net5.0/thismyfirsthtml.MvcApplicationPartsAssemblyInfo.cache
+/Users/wangweijie/Desktop/html/thismyfirsthtml/thismyfirsthtml/obj/Debug/net5.0/thismyfirsthtml.csproj.AssemblyReference.cache

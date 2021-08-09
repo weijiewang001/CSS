@@ -20,7 +20,7 @@
       "outputPath": "/Users/wangweijie/Desktop/html/thismyfirsthtml/thismyfirsthtml/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/wangweijie/.nuget/NuGet/NuGet.Config"
+        "/Users/wangweijie/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,14 +1,15 @@
 ﻿<Properties StartupConfiguration="{DCCEBD57-6D4D-4C14-A909-13BCE7A3470B}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="thismyfirsthtml/Program.cs">
     <Files>
-      <File FileName="thismyfirsthtml/Program.cs" Line="1" Column="1" />
+      <File FileName="thismyfirsthtml/Program.cs" Line="25" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="thismyfirsthtml" expanded="True" selected="True">
+          <Node name="thismyfirsthtml" expanded="True">
             <Node name="thismyfirsthtml" expanded="True">
               <Node name="Properties" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -17,7 +18,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.thismyfirsthtml FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.thismyfirsthtml PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

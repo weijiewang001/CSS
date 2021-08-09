@@ -10,137 +10,257 @@
 </head>
 
 <body>
-    <div class="mainPage">
+    <header class="header">
+        <!-- <a href="#">
+            <button type="submit" class="location">
+                <img src="flag-triangle.svg" alt="flag" class="flag-logo">
+                <span class="location1">悉尼</span>
+            </button>
+        </a> -->
+        <form class="search-bar" action="">
+            <button type="submit" class="location">
+                <img src="flag-triangle.svg" alt="flag" class="flag-logo">
+                <span class="location1">悉尼</span>
+            </button>
+            <input type="text" class="search-input" type="search">
+            <button type="submit" class="search-btn">
+                <span class="searchPlaceholder">搜索</span>
+                <img src="magnify.svg" alt="">
+            </button>
+        </form>
 
-        <div class="search">
-            <div class="searchBar">
-                <div
-                    style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyVpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDYuMC1jMDAyIDc5LjE2NDQ2MCwgMjAyMC8wNS8xMi0xNjowNDoxNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjIgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MURCNkE2RDYwNkQ5MTFFQkI4ODFEN0IwMjZFMjdFQjUiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RkE5MkFBM0EwNkRCMTFFQkI4ODFEN0IwMjZFMjdFQjUiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoxREI2QTZENDA2RDkxMUVCQjg4MUQ3QjAyNkUyN0VCNSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoxREI2QTZENTA2RDkxMUVCQjg4MUQ3QjAyNkUyN0VCNSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PvlP0z0AAAICSURBVHjatJbLLwNRFIdnSrQEId6hEnYqCCJhqQQ7kdhYkrDkT7GwE3uvWLMSGxZeSypCwkrU+1mh6neSX2V63U6n7TjJl04fc787555zb81YLGYkCR9oBwFQAUqACR7BLQiBQ/BsOAhTI8oBQeLjZ1HwxO8KgYeff4FtsAEi6YhkkAnQwMH3OeszvjcoqQdtoAd4wTVYAGEnIknNNCgF52AR3KTISDEYBh3gDcyBKzuRpGQG+MEeWLY8gZMYAoOc2CylCRHPdZCSU7CUpsTgGkmKy/mEhk4kC97LwVfAt5FZrIJX0MUq/SOSEs4Huw7WxC6k6jbZAt06UYDXe0b2IVUqi96kE9UybZcuiJ7YzFUssARREbs7argTD5ZxE0QxS/W5Eaby+it6ULaVbKOYk39RRbd89bsgKWQvyZifquiE160uiFqYspCu6g5YCFL7BVlIckFfslbxsOJ2KBlVFzGNGABl4FjXKvECWAd33CUGMpDIttPPLWgt2V4n8c7zJMKdeAzkORB4LL+XTNyr1Zbs4JPKm2SzyU1bXMNX5T4vi0d2/WpOUPbJOp5l8+Aj1VEuJTrCNJrsiTDF8Y6vtGQjxHTJWk+BRp3MtPlzIjPtBM2gRvlOZn/EM+hCeVKtzE5kjTw+SdTBvqiVORWlG39k/yVSZSf/KYrLxuXiR4ABAO9Tl45McDVFAAAAAElFTkSuQmCC&quot;); background-position: 0% 0%; background-size: 100% 100%; background-repeat: no-repeat;">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyVpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDYuMC1jMDAyIDc5LjE2NDQ2MCwgMjAyMC8wNS8xMi0xNjowNDoxNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjIgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MURCNkE2RDYwNkQ5MTFFQkI4ODFEN0IwMjZFMjdFQjUiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RkE5MkFBM0EwNkRCMTFFQkI4ODFEN0IwMjZFMjdFQjUiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoxREI2QTZENDA2RDkxMUVCQjg4MUQ3QjAyNkUyN0VCNSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoxREI2QTZENTA2RDkxMUVCQjg4MUQ3QjAyNkUyN0VCNSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PvlP0z0AAAICSURBVHjatJbLLwNRFIdnSrQEId6hEnYqCCJhqQQ7kdhYkrDkT7GwE3uvWLMSGxZeSypCwkrU+1mh6neSX2V63U6n7TjJl04fc787555zb81YLGYkCR9oBwFQAUqACR7BLQiBQ/BsOAhTI8oBQeLjZ1HwxO8KgYeff4FtsAEi6YhkkAnQwMH3OeszvjcoqQdtoAd4wTVYAGEnIknNNCgF52AR3KTISDEYBh3gDcyBKzuRpGQG+MEeWLY8gZMYAoOc2CylCRHPdZCSU7CUpsTgGkmKy/mEhk4kC97LwVfAt5FZrIJX0MUq/SOSEs4Huw7WxC6k6jbZAt06UYDXe0b2IVUqi96kE9UybZcuiJ7YzFUssARREbs7argTD5ZxE0QxS/W5Eaby+it6ULaVbKOYk39RRbd89bsgKWQvyZifquiE160uiFqYspCu6g5YCFL7BVlIckFfslbxsOJ2KBlVFzGNGABl4FjXKvECWAd33CUGMpDIttPPLWgt2V4n8c7zJMKdeAzkORB4LL+XTNyr1Zbs4JPKm2SzyU1bXMNX5T4vi0d2/WpOUPbJOp5l8+Aj1VEuJTrCNJrsiTDF8Y6vtGQjxHTJWk+BRp3MtPlzIjPtBM2gRvlOZn/EM+hCeVKtzE5kjTw+SdTBvqiVORWlG39k/yVSZSf/KYrLxuXiR4ABAO9Tl45McDVFAAAAAElFTkSuQmCC"
-                        draggable="true">
-                </div>
-                <div class="uni-input-placeholder cl">
-                    Please enter city
-                    <input class="uni-input-input" type="text" maxlength="140" step enterkeyhint="done"
-                        autocomplete="off">
-
-                </div>
-
-            </div>
-        </div>
-
-        <div class="advertisement">
-            <img data-v-57280228="" mode="" class="advert1"
+        <!-- <div>
+            <img class="background-image" mode="" class="advert1"
                 data-src="https://ptcfit-picture.ptctravel.net.cn//hotel_banner1.jpg"
                 src="https://ptcfit-picture.ptctravel.net.cn//hotel_banner1.jpg" lazy="loaded">
+        </div> -->
+    </header>
 
+    <div class="categories">
+        <section class="category-section">
+            <button class="category ticket">
+                <img src="ticket-outline.svg" alt="ticket" class="category-icon">
+                <span>景点门票</span>
+            </button>
+            <button class="category package">
+                <img src="gift.svg" alt="package" class="category-icon">
+                <span>打包特惠</span>
+            </button>
+            <button class="category promotion">
+                <img src="bag-checked.svg" alt="promotion" class="category-icon">
+                <span>酒店促销</span>
+            </button>
+            <button class="category bus">
+                <img src="bus-side.svg" alt="" bus class="category-icon">
+                <span>美食包车</span>
+            </button>
+        </section>
 
-        </div>
+    </div>
 
-        <div class="navigation">
-            <div class="item1">
-                <svg style="width:24px;height:24px" viewBox="0 0 24 24">
-                    <path fill="currentColor"
-                        d="M14,10V4.5L19.5,10M5,3C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V9L15,3H5Z" />
-                </svg>
-                <p>Ticket</p>
-            </div>
-            <div class="item2">
-                <svg style="width:24px;height:24px" viewBox="0 0 24 24">
-                    <path fill="currentColor"
-                        d="M3,3H21V7H3V3M4,8H20V21H4V8M9.5,11A0.5,0.5 0 0,0 9,11.5V13H15V11.5A0.5,0.5 0 0,0 14.5,11H9.5Z" />
-                </svg>
-                <p>Package</p>
-            </div>
-            <div class="item3">
-                <svg style="width:24px;height:24px" viewBox="0 0 24 24">
-                    <path fill="currentColor"
-                        d="M19,7H11V14H3V5H1V20H3V17H21V20H23V11A4,4 0 0,0 19,7M7,13A3,3 0 0,0 10,10A3,3 0 0,0 7,7A3,3 0 0,0 4,10A3,3 0 0,0 7,13Z" />
-                </svg>
-                <p>Hotel</p>
-            </div>
-            <div class="item4">
-                <svg style="width:24px;height:24px" viewBox="0 0 24 24">
-                    <path fill="currentColor"
-                        d="M15.5,21L14,8H16.23L15.1,3.46L16.84,3L18.09,8H22L20.5,21H15.5M5,11H10A3,3 0 0,1 13,14H2A3,3 0 0,1 5,11M13,18A3,3 0 0,1 10,21H5A3,3 0 0,1 2,18H13M3,15H8L9.5,16.5L11,15H12A1,1 0 0,1 13,16A1,1 0 0,1 12,17H3A1,1 0 0,1 2,16A1,1 0 0,1 3,15Z" />
-                </svg>
-                <p>Food</p>
-            </div>
-        </div>
-        <div class="promotionArea">
-            <h3 class="promotionSolgo">Promotion area</h3>
-            <div class="promotionTime">
-                <p>18:22:00</p>
-                <div class="hotList">
-                    <div class="promotion1">
-                        <div class="proPic1">
-                            <img data-src="https://ptcfit-picture.ptctravel.net.cn/small/202009100142521324419017253422881KBhKJiRXx.jpg"
-                                data-error="/static/img/index_loading.7900244f.jpeg"
-                                data-loading="/static/img/index_loading.7900244f.jpeg" class="img"
-                                src="https://ptcfit-picture.ptctravel.net.cn/small/202009100142521324419017253422881KBhKJiRXx.jpg"
-                                lazy="loaded">
-
-                        </div>
-                        <div class="proDes1">
-                            <div class="title1">史蒂芬港 月影号观海豚游船</div>
-                        </div>
-                        <div class="proPrice1">
-                            <div class="aud1">28.50</div>
-                        </div>
-
+    <div class="special-promotion-area">
+        <span data-duration="更多" class="special-promotion-slogan">特惠秒杀</span>
+        <span data-duration="------18:22:00------" class="special-promotion-time"></span>
+        <section class="image-section">
+            <article class="image-container">
+            <a data-duration="黄金海岸" class="thumbnail" href="#">
+                <img src="http://unsplash.it/250/150?gravity=center" alt="" class="thumbnail-image">
+            </a>
+            <div class="image-bottom-section">
+                <div class="image-details">
+                    <div class="image-metadata">
+                        <span>黄金海岸Voco酒2晚住宿加大水鸭水陆船C套...</span>
                     </div>
-                    <div class="promotion2">
-                        <div class="proPic2">
-                            <img data-src="https://ptcfit-picture.ptctravel.net.cn/small/20181219044809131896828890404682ySBDcY.jpg"
-                                data-error="/static/img/index_loading.7900244f.jpeg"
-                                data-loading="/static/img/index_loading.7900244f.jpeg" class="img"
-                                src="https://ptcfit-picture.ptctravel.net.cn/small/20181219044809131896828890404682ySBDcY.jpg"
-                                lazy="loaded">
-
-                        </div>
-                        <div class="proDes2">
-                            <div class="title2">凯恩斯大堡礁40分钟高空飞行观光</div>
-
-                        </div>
-                        <div class="proPrice2">
-                            <div class="aud2">206.10</div>
-                        </div>
-
-                    </div>
-                    <div class="promotion3">
-                        <div class="proPic3">
-                            <img data-src="https://ptcfit-picture.ptctravel.net.cn/small/20200828032351132430730310146626cQOkCm5h8h.jpg"
-                                data-error="/static/img/index_loading.7900244f.jpeg"
-                                data-loading="/static/img/index_loading.7900244f.jpeg" class="img"
-                                src="https://ptcfit-picture.ptctravel.net.cn/small/20200828032351132430730310146626cQOkCm5h8h.jpg"
-                                lazy="loaded">
-
-                        </div>
-                        <div class="proDes3">
-                            <div class="title3">Gosford 巧克力工厂深度游</div>
-
-                        </div>
-                        <div class="proPrice3">
-                            <div class="aud3">8.00</div>
-
-                        </div>
+                    <div>
+                        <a href="#" class="image-price">A$615.00</a>
+                        <span class="number-of-sale">16+</span>
                     </div>
                 </div>
+                <!-- <a href="#" class="image-price">A$615.00</a>
+                <span class="number-of-sale">16+</span> -->
             </div>
+
+
+
+        </article>
+        <article class="image-container">
+            <a data-duration="黄金海岸" class="thumbnail" href="#">
+                <img src="http://unsplash.it/250/150?gravity=center" alt="" class="thumbnail-image">
+            </a>
+            <div class="image-bottom-section">
+                <div class="image-details">
+                    <div class="image-metadata">
+                        <span>黄金海岸Voco酒2晚住宿加大水鸭水陆船C套...</span>
+                    </div>
+                    <div>
+                        <a href="#" class="image-price">A$615.00</a>
+                        <span class="number-of-sale">16+</span>
+                    </div>
+                </div>
+                <!-- <a href="#" class="image-price">A$615.00</a>
+                <span class="number-of-sale">16+</span> -->
+            </div>
+
+
+
+        </article>
+        <article class="image-container">
+            <a data-duration="黄金海岸" class="thumbnail" href="#">
+                <img src="http://unsplash.it/250/150?gravity=center" alt="" class="thumbnail-image">
+            </a>
+            <div class="image-bottom-section">
+                <div class="image-details">
+                    <div class="image-metadata">
+                        <span>黄金海岸Voco酒2晚住宿加大水鸭水陆船C套...</span>
+                    </div>
+                    <div>
+                        <a href="#" class="image-price">A$615.00</a>
+                        <span class="number-of-sale">16+</span>
+                    </div>
+                </div>
+                <!-- <a href="#" class="image-price">A$615.00</a>
+                <span class="number-of-sale">16+</span> -->
+            </div>
+        </section>
+        
+
+
+
+        </article>
+        
+
+    </div>
+
+
+
+
+    <div class="search-bar">
+        <div
+            style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyVpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDYuMC1jMDAyIDc5LjE2NDQ2MCwgMjAyMC8wNS8xMi0xNjowNDoxNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjIgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MURCNkE2RDYwNkQ5MTFFQkI4ODFEN0IwMjZFMjdFQjUiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RkE5MkFBM0EwNkRCMTFFQkI4ODFEN0IwMjZFMjdFQjUiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoxREI2QTZENDA2RDkxMUVCQjg4MUQ3QjAyNkUyN0VCNSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoxREI2QTZENTA2RDkxMUVCQjg4MUQ3QjAyNkUyN0VCNSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PvlP0z0AAAICSURBVHjatJbLLwNRFIdnSrQEId6hEnYqCCJhqQQ7kdhYkrDkT7GwE3uvWLMSGxZeSypCwkrU+1mh6neSX2V63U6n7TjJl04fc787555zb81YLGYkCR9oBwFQAUqACR7BLQiBQ/BsOAhTI8oBQeLjZ1HwxO8KgYeff4FtsAEi6YhkkAnQwMH3OeszvjcoqQdtoAd4wTVYAGEnIknNNCgF52AR3KTISDEYBh3gDcyBKzuRpGQG+MEeWLY8gZMYAoOc2CylCRHPdZCSU7CUpsTgGkmKy/mEhk4kC97LwVfAt5FZrIJX0MUq/SOSEs4Huw7WxC6k6jbZAt06UYDXe0b2IVUqi96kE9UybZcuiJ7YzFUssARREbs7argTD5ZxE0QxS/W5Eaby+it6ULaVbKOYk39RRbd89bsgKWQvyZifquiE160uiFqYspCu6g5YCFL7BVlIckFfslbxsOJ2KBlVFzGNGABl4FjXKvECWAd33CUGMpDIttPPLWgt2V4n8c7zJMKdeAzkORB4LL+XTNyr1Zbs4JPKm2SzyU1bXMNX5T4vi0d2/WpOUPbJOp5l8+Aj1VEuJTrCNJrsiTDF8Y6vtGQjxHTJWk+BRp3MtPlzIjPtBM2gRvlOZn/EM+hCeVKtzE5kjTw+SdTBvqiVORWlG39k/yVSZSf/KYrLxuXiR4ABAO9Tl45McDVFAAAAAElFTkSuQmCC&quot;); background-position: 0% 0%; background-size: 100% 100%; background-repeat: no-repeat;">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyVpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDYuMC1jMDAyIDc5LjE2NDQ2MCwgMjAyMC8wNS8xMi0xNjowNDoxNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjIgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MURCNkE2RDYwNkQ5MTFFQkI4ODFEN0IwMjZFMjdFQjUiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RkE5MkFBM0EwNkRCMTFFQkI4ODFEN0IwMjZFMjdFQjUiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoxREI2QTZENDA2RDkxMUVCQjg4MUQ3QjAyNkUyN0VCNSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoxREI2QTZENTA2RDkxMUVCQjg4MUQ3QjAyNkUyN0VCNSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PvlP0z0AAAICSURBVHjatJbLLwNRFIdnSrQEId6hEnYqCCJhqQQ7kdhYkrDkT7GwE3uvWLMSGxZeSypCwkrU+1mh6neSX2V63U6n7TjJl04fc787555zb81YLGYkCR9oBwFQAUqACR7BLQiBQ/BsOAhTI8oBQeLjZ1HwxO8KgYeff4FtsAEi6YhkkAnQwMH3OeszvjcoqQdtoAd4wTVYAGEnIknNNCgF52AR3KTISDEYBh3gDcyBKzuRpGQG+MEeWLY8gZMYAoOc2CylCRHPdZCSU7CUpsTgGkmKy/mEhk4kC97LwVfAt5FZrIJX0MUq/SOSEs4Huw7WxC6k6jbZAt06UYDXe0b2IVUqi96kE9UybZcuiJ7YzFUssARREbs7argTD5ZxE0QxS/W5Eaby+it6ULaVbKOYk39RRbd89bsgKWQvyZifquiE160uiFqYspCu6g5YCFL7BVlIckFfslbxsOJ2KBlVFzGNGABl4FjXKvECWAd33CUGMpDIttPPLWgt2V4n8c7zJMKdeAzkORB4LL+XTNyr1Zbs4JPKm2SzyU1bXMNX5T4vi0d2/WpOUPbJOp5l8+Aj1VEuJTrCNJrsiTDF8Y6vtGQjxHTJWk+BRp3MtPlzIjPtBM2gRvlOZn/EM+hCeVKtzE5kjTw+SdTBvqiVORWlG39k/yVSZSf/KYrLxuXiR4ABAO9Tl45McDVFAAAAAElFTkSuQmCC"
+                draggable="true">
         </div>
-        <div class="hotPotRecommend">
-            <div class="recommend">
-                <div class="recommend1">
+        <!-- <div class="uni-input-placeholder cl">
+                Please enter city
+                <input class="uni-input-input" type="text" maxlength="140" step enterkeyhint="done"
+                    autocomplete="off">
 
-                </div>
-                <div class="recommend2">
+            </div> -->
 
-                </div>
-            </div>
-            <div class="newArrival"></div>
-            <div class="popularTopic"></div>
+    </div>
+
+    <div class="advertisement">
+        <img data-v-57280228="" mode="" class="advert1"
+            data-src="https://ptcfit-picture.ptctravel.net.cn//hotel_banner1.jpg"
+            src="https://ptcfit-picture.ptctravel.net.cn//hotel_banner1.jpg" lazy="loaded">
+
+
+    </div>
+
+    <div class="navigation">
+        <div class="item1">
+            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                    d="M14,10V4.5L19.5,10M5,3C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V9L15,3H5Z" />
+            </svg>
+            <p>Ticket</p>
+        </div>
+        <div class="item2">
+            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                    d="M3,3H21V7H3V3M4,8H20V21H4V8M9.5,11A0.5,0.5 0 0,0 9,11.5V13H15V11.5A0.5,0.5 0 0,0 14.5,11H9.5Z" />
+            </svg>
+            <p>Package</p>
+        </div>
+        <div class="item3">
+            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                    d="M19,7H11V14H3V5H1V20H3V17H21V20H23V11A4,4 0 0,0 19,7M7,13A3,3 0 0,0 10,10A3,3 0 0,0 7,7A3,3 0 0,0 4,10A3,3 0 0,0 7,13Z" />
+            </svg>
+            <p>Hotel</p>
+        </div>
+        <div class="item4">
+            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                    d="M15.5,21L14,8H16.23L15.1,3.46L16.84,3L18.09,8H22L20.5,21H15.5M5,11H10A3,3 0 0,1 13,14H2A3,3 0 0,1 5,11M13,18A3,3 0 0,1 10,21H5A3,3 0 0,1 2,18H13M3,15H8L9.5,16.5L11,15H12A1,1 0 0,1 13,16A1,1 0 0,1 12,17H3A1,1 0 0,1 2,16A1,1 0 0,1 3,15Z" />
+            </svg>
+            <p>Food</p>
         </div>
     </div>
+    <div class="promotionArea">
+        <h3 class="promotionSolgo">Promotion area</h3>
+        <div class="promotionTime">
+            <p>18:22:00</p>
+            <div class="hotList">
+                <div class="promotion1">
+                    <div class="proPic1">
+                        <img data-src="https://ptcfit-picture.ptctravel.net.cn/small/202009100142521324419017253422881KBhKJiRXx.jpg"
+                            data-error="/static/img/index_loading.7900244f.jpeg"
+                            data-loading="/static/img/index_loading.7900244f.jpeg" class="img"
+                            src="https://ptcfit-picture.ptctravel.net.cn/small/202009100142521324419017253422881KBhKJiRXx.jpg"
+                            lazy="loaded">
+
+                    </div>
+                    <div class="proDes1">
+                        <div class="title1">史蒂芬港 月影号观海豚游船</div>
+                    </div>
+                    <div class="proPrice1">
+                        <div class="aud1">28.50</div>
+                    </div>
+
+                </div>
+                <div class="promotion2">
+                    <div class="proPic2">
+                        <img data-src="https://ptcfit-picture.ptctravel.net.cn/small/20181219044809131896828890404682ySBDcY.jpg"
+                            data-error="/static/img/index_loading.7900244f.jpeg"
+                            data-loading="/static/img/index_loading.7900244f.jpeg" class="img"
+                            src="https://ptcfit-picture.ptctravel.net.cn/small/20181219044809131896828890404682ySBDcY.jpg"
+                            lazy="loaded">
+
+                    </div>
+                    <div class="proDes2">
+                        <div class="title2">凯恩斯大堡礁40分钟高空飞行观光</div>
+
+                    </div>
+                    <div class="proPrice2">
+                        <div class="aud2">206.10</div>
+                    </div>
+
+                </div>
+                <div class="promotion3">
+                    <div class="proPic3">
+                        <img data-src="https://ptcfit-picture.ptctravel.net.cn/small/20200828032351132430730310146626cQOkCm5h8h.jpg"
+                            data-error="/static/img/index_loading.7900244f.jpeg"
+                            data-loading="/static/img/index_loading.7900244f.jpeg" class="img"
+                            src="https://ptcfit-picture.ptctravel.net.cn/small/20200828032351132430730310146626cQOkCm5h8h.jpg"
+                            lazy="loaded">
+
+                    </div>
+                    <div class="proDes3">
+                        <div class="title3">Gosford 巧克力工厂深度游</div>
+
+                    </div>
+                    <div class="proPrice3">
+                        <div class="aud3">8.00</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hotPotRecommend">
+        <div class="recommend">
+            <div class="recommend1">
+
+            </div>
+            <div class="recommend2">
+
+            </div>
+        </div>
+        <div class="newArrival"></div>
+        <div class="popularTopic"></div>
+    </div>
+    <!-- </div> -->
 </body>
 
 </html>
